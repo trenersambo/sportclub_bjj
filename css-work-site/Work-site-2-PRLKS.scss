@@ -1,2 +1,44 @@
 /* Scss Document */
+$color-nav: #FFFFFF;
+$color-nav-hover:#ff1303;
+
+
+
+.about ul li{
+	list-style-type: none;
+}
+
+.cta{
+	/*2-я фоновая картинка с эфф-ом ПАРАЛЛАКС*/
+	background: linear-gradient(rgba(2,2,2, 0.5), rgba(2,2,2, 0.8)), url("../img/bg-3.jpg") fixed center center;
+	 
+	background-size:cover;
+	
+	padding: 80px 0;
+	color: $color-nav;
+	
+	& h3{
+		font-weight: 700;
+		font-size: 29px;	
+	}
+	&-btn{
+		font-weight: 600;
+		font-size: 16px;
+		letter-spacing: 1px;
+		display: inline-block;
+		padding: 8px 28px;
+		border: 2px solid $color-nav;
+		border-radius: 8px;
+		color: $color-nav;
+		margin-top: 12px;
+		text-decoration: none;
+		
+		&:hover{
+		background: $color-nav;
+		color: $color-nav-hover;	
+		}
+		
+	}
+	
+}
 

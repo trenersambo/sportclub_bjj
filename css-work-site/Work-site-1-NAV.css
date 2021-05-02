@@ -14,11 +14,11 @@
     background-color: #ff1303;
     border-color: #ff1303; }
 
-/*фоновая картинка*/
+/*1-я фоновая картинка с эфф-ом ПАРАЛЛАКС*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg-3.jpg");
+  background: url("../img/bg-3.jpg") fixed center center;
   background-size: cover;
   position: relative; }
   #hero:before {

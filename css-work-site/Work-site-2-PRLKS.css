@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Scss Document */
+.about ul li {
+  list-style-type: none; }
+
+.cta {
+  /*2-я фоновая картинка с эфф-ом ПАРАЛЛАКС*/
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(2, 2, 2, 0.8)), url("../img/bg-3.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+  color: #FFFFFF; }
+  .cta h3 {
+    font-weight: 700;
+    font-size: 29px; }
+  .cta-btn {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-top: 12px;
+    text-decoration: none; }
+    .cta-btn:hover {
+      background: #FFFFFF;
+      color: #ff1303; }
