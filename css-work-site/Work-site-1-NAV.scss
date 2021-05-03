@@ -75,7 +75,7 @@ $yelow-hover:#FFC451;
 			color: $color-nav;
 			text-decoration: none;
 			&:hover{
-				color:$yelow-hover;
+				color:$color-nav-hover - #222;
 			}
 		}
 	}

@@ -59,3 +59,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-51%, -50%); }
+
+.carousel-indicators {
+  margin-bottom: -50px; }
+  .carousel-indicators .batn-slaid {
+    background-color: #dd0000;
+    height: 10px;
+    width: 50px;
+    margin-right: 2px; }

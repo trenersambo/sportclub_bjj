@@ -86,5 +86,17 @@ $color-nav-hover:#ff1303;
 }
 
 
+.carousel-indicators {
+  margin-bottom: -50px;
+	
+
+& .batn-slaid{
+	background-color: $color-nav-hover - #222;
+	height: 10px;
+	width: 50px;
+	margin-right: 2px;
+}
+
+ }
 
 
