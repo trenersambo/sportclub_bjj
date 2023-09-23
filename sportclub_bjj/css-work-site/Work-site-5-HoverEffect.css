@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* Scss Document */
+.team {
+  padding: 60px; }
+  .team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5); }
+    .team .member .member-img {
+      position: relative;
+      overflow: hidden; }
+    .team .member .social {
+      position: absolute;
+      left: 0;
+      bottom: 30px;
+      right: 0;
+      opacity: 0;
+      transition: ease-in-out 0.3s; }
+      .team .member .social a {
+        transition: color 0.3s;
+        color: #151515;
+        margin: 0 3px;
+        padding-top: 7px;
+        border-radius: 4px;
+        width: 36px;
+        height: 36px;
+        background: rgba(255, 255, 255, 0.8);
+        display: inline-block; }
+        .team .member .social a:hover {
+          background: #cc0000; }
+    .team .member .member-info {
+      padding: 25px 15px; }
+      .team .member .member-info h4 {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 18px; }
+      .team .member .member-info p {
+        font-size: 14px;
+        font-style: italic;
+        line-height: 26px;
+        color: #777777; }
+      .team .member .member-info span {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: #AAAAAA; }
+    .team .member:hover .social {
+      opacity: 1;
+      bottom: 15px; }
+
+/*эффекты для плашек*/
+.services .icon-box {
+  border: 1px solid #AFAFAF;
+  /*padding: 80px 20px;*/
+  transition: all ease-in-ot 0.3s;
+  background: #FFF;
+  /* margin-bottom: 20px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .services .icon-box .icon {
+    margin: 0 auto;
+    /*width: 64px;
+    height: 64px;*/
+    background: #D7D2D2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-bottom: 10px; }
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px; }
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0; }
+  .services .icon-box:hover {
+    border-color: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(-10px); }
+
+.services .row {
+  row-gap: 20px; }
