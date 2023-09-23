@@ -1,0 +1,102 @@
+/* Scss Document */
+$color-nav: #FFFFFF;
+$color-nav-hover:#ff1303;
+
+
+
+.about ul li{
+	list-style-type: none;
+}
+
+.cta{
+	/*2-я фоновая картинка с эфф-ом ПАРАЛЛАКС*/
+	background: linear-gradient(rgba(2,2,2, 0.5), rgba(2,2,2, 0.8)), url("../img/bg-3.jpg") fixed center center;
+	 
+	background-size:cover;
+	
+	padding: 80px 0;
+	color: $color-nav;
+	
+	& h3{
+		font-weight: 700;
+		font-size: 29px;	
+	}
+	&-btn{
+		font-weight: 600;
+		font-size: 16px;
+		letter-spacing: 1px;
+		display: inline-block;
+		padding: 8px 28px;
+		border: 2px solid $color-nav;
+		border-radius: 8px;
+		color: $color-nav;
+		margin-top: 12px;
+		text-decoration: none;
+		
+		&:hover{
+		background: $color-nav;
+		color: $color-nav-hover;	
+		}
+		
+	}
+	
+}
+
+//overlay-project 2
+
+.containerF {
+  position: relative;
+  
+}
+ 
+.imageF {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+ 
+.overlayF {
+  position: absolute;
+ /* top: 0;*/
+  bottom: 20px;
+  left: 60px;
+  right: 0;
+  height: 20%;
+  width: 75%;
+  opacity: 0;
+  transition: .4s ease;
+  background-color: #6D6D72;
+	border-radius: 25px 100px;
+	border: 2px solid $color-nav;
+}
+ 
+.containerF:hover .overlayF {
+  opacity: 0.5;
+}
+ 
+.textF {
+  color: white;
+  font-size: 21px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, -50%);
+	 
+}
+
+
+.carousel-indicators {
+  margin-bottom: -50px;
+	
+
+& .batn-slaid{
+	background-color: $color-nav-hover - #222;
+	height: 10px;
+	width: 50px;
+	margin-right: 2px;
+}
+
+ }
+
+

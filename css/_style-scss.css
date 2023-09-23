@@ -1,0 +1,18 @@
+/* Scss Document */
+.velo:hover {
+  fill: #C0C0C0; }
+
+.veloimg:hover {
+  filter: brightness(40%); }
+
+.bg-color2 {
+  background-color: #99CCFF;
+  border: 1px solid #000;
+  text-align: center;
+  font-weight: 600; }
+
+.bg-color3 {
+  background-color: #00CC99; }
+
+.bg-color4 {
+  background-color: #707269; }

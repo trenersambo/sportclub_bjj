@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* Scss Document */
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff1303; }
+
+.btn-outline-success {
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
+  .btn-outline-success:hover {
+    color: #FFFFFF;
+    background-color: #ff1303;
+    border-color: #ff1303; }
+
+/*1-я фоновая картинка с эфф-ом ПАРАЛЛАКС*/
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg-3.jpg") fixed center center;
+  background-size: cover;
+  position: relative; }
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0; }
+  #hero .container {
+    position: relative;
+    padding-top: 75px; }
+  #hero h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #FFFFFF;
+    font-family: Roboto, Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; }
+  #hero h2 {
+    color: #FFFFFF;
+    margin: 10px 0 0 0;
+    font-size: 24px; }
+  #hero .icon-box h3 {
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px; }
+    #hero .icon-box h3 a {
+      color: #FFFFFF;
+      text-decoration: none; }
+      #hero .icon-box h3 a:hover {
+        color: #dd0000; }
+
+.icon-box {
+  padding: 30px 20px;
+  border: 1px solid #FFFFFF;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .icon-box:hover {
+    border-color: #dddddd;
+    box-shadow: 4px 5px 5px #FFFFFF; }
+  .icon-box .h3_rovno {
+    display: flex;
+    margin-top: auto; }
+
+@media (max-width: 1200px) {
+  .otstup-blok {
+    margin-bottom: 20px; } }
+@media (max-width: 768px) {
+  .top-text-sport {
+    margin-top: 40px; } }
